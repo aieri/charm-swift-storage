@@ -96,6 +96,22 @@ PACKAGES = [
     'swift', 'swift-account', 'swift-container', 'swift-object',
     'xfsprogs', 'gdisk', 'lvm2', 'python-jinja2', 'python-psutil',
     'ufw',
+    'xfsprogs',
+    'libfile-readbackwards-perl',
+    'libtime-piece-perl',
+]
+
+PY3_PACKAGES = [
+    'python3-jinja2',
+    'python3-psutil',
+    'python3-six',
+    'python3-swift',
+]
+
+PURGE_PACKAGES = [
+    'python-jinja2',
+    'python-psutil',
+    'python-swift',
 ]
 
 VERSION_PACKAGE = 'swift-account'
