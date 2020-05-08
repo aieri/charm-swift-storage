@@ -33,7 +33,7 @@ use Time::Piece; # RHEL package: perl-Time-Piece
 use File::Find;
 
 $ENV{"LC_ALL"} = "C";
-$time_pattern = '%Y-%m-%d %H:%M:%S';
+$time_pattern = '%b %e %H:%M:%S';
 $warning = 1;
 $critical = 1;
 $reverse = 0;
